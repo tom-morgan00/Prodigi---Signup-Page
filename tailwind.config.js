@@ -16,6 +16,10 @@ module.exports = {
       },
       fontSize: {
         label: ['0.5rem', { lineHeight: '0.8rem' }],
+        'label-lg': ['0.66rem', { lineHeight: '0.8rem' }],
+      },
+      backgroundImage: {
+        'prodigi-background': 'url("./assets/background.png")',
       },
     },
   },
