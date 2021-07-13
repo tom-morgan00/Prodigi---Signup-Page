@@ -1,0 +1,14 @@
+{
+  "name": "sign-up-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "author": "Tom Morgan",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
