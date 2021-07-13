@@ -16,41 +16,20 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="bg-gray-50">
-    <main
-      class="
-        h-full
-        mx-auto
-        md:flex
-        bg-white
-        lg:h-screen lg:max-w-screen-xl
-        xl:h-full xl:rounded xl:overflow-hidden xl:shadow-xl xl:mt-12
-      "
-    >
-      <section
-        class="
-          prodigi-section
-          bg-prodigi-background bg-cover
-          py-10
-          px-8
-          h-auto
-          w-1/2
-          hidden
-          lg:block
-          xl:h-auto
-        "
-      >
-        <div class="logo w-44 mb-20 ml-8">
+    <main class="main">
+      <section class="prodigi-section">
+        <div class="logo">
           <img
             class="w-full"
             src="./assets/Prodigi logo.svg"
             alt="Prodigi logo"
           />
         </div>
-        <ul class="prodigi-list text-white text-lg">
+        <ul class="prodigi-list">
           <li class="flex mb-8">
-            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <img class="tick" src="./assets/tick.svg" alt="Tick" />
             <div>
-              <h3 class="font-semibold mb-1">Easy-to-use interface</h3>
+              <h3 class="li-title">Easy-to-use interface</h3>
               <p class="text-base">
                 Simple and intuitive; making it easy for customers to turn their
                 photos into beautiful books.
@@ -58,9 +37,9 @@
             </div>
           </li>
           <li class="flex mb-8">
-            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <img class="tick" src="./assets/tick.svg" alt="Tick" />
             <div>
-              <h3 class="font-semibold mb-1">Intuitive, quick and simple</h3>
+              <h3 class="li-title">Intuitive, quick and simple</h3>
               <p class="text-base">
                 The simple user journey guides your customer through the entire
                 process.
@@ -68,9 +47,9 @@
             </div>
           </li>
           <li class="flex mb-8">
-            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <img class="tick" src="./assets/tick.svg" alt="Tick" />
             <div>
-              <h3 class="font-semibold mb-1">Premium quality</h3>
+              <h3 class="li-title">Premium quality</h3>
               <p class="text-base">
                 High grade materials, sizes and finishing options; no matter
                 where in the world you order.
@@ -78,9 +57,9 @@
             </div>
           </li>
           <li class="flex mb-8">
-            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <img class="tick" src="./assets/tick.svg" alt="Tick" />
             <div>
-              <h3 class="font-semibold mb-1">Free to use</h3>
+              <h3 class="li-title">Free to use</h3>
               <p class="text-base">
                 Our photo book maker platform is 100% free. We only charge for
                 items ordered and there will never be any hidden fees or
@@ -90,51 +69,20 @@
           </li>
         </ul>
       </section>
-      <section
-        class="
-          form-container
-          py-10
-          mx-auto
-          px-5
-          h-auto
-          w-full
-          max-w-md
-          md:mt-10
-          lg:w-1/2 lg:max-w-xl lg:mt-0
-        "
-      >
+      <section class="form-container">
         <form action="#" method="POST">
-          <div class="form-header font-semibold mb-6 lg:mb-12">
-            <h2 class="text-xl mb-2 lg:text-3xl">Photo book maker sign up</h2>
-            <h4 class="text-sm lg:text-lg">
+          <div class="form-header">
+            <h2 class="form-header-title">Photo book maker sign up</h2>
+            <h4 class="form-header-text">
               Already have an account?
               <a href="#" target="_blank" class="text-blue-500">Sign in</a>
             </h4>
           </div>
 
           <div class="mb-3 lg:mb-5">
-            <label
-              class="
-                text-label text-gray-400
-                uppercase
-                tracking-widest
-                lg:text-label-lg
-              "
-              for="full_name"
-              >Full name*</label
-            >
+            <label class="label" for="full_name">Full name*</label>
             <input
-              class="
-                block
-                text-sm
-                focus:font-semibold
-                border-b-2
-                py-1
-                w-full
-                outline-none
-                focus:text-black focus:border-black
-                lg:text-base
-              "
+              class="field"
               type="text"
               id="full_name"
               name="full_name"
@@ -142,28 +90,9 @@
             />
           </div>
           <div class="mb-3 lg:mb-5">
-            <label
-              class="
-                text-label text-gray-400
-                uppercase
-                tracking-widest
-                lg:text-label-lg
-              "
-              for="email"
-              >Email*</label
-            >
+            <label class="label" for="email">Email*</label>
             <input
-              class="
-                block
-                text-sm
-                focus:font-semibold
-                border-b-2
-                py-1
-                w-full
-                outline-none
-                focus:text-black focus:border-black
-                lg:text-base
-              "
+              class="field"
               type="text"
               id="email"
               name="email"
@@ -171,28 +100,9 @@
             />
           </div>
           <div class="mb-3 lg:mb-5">
-            <label
-              class="
-                text-label text-gray-400
-                uppercase
-                tracking-widest
-                lg:text-label-lg
-              "
-              for="company_name"
-              >Company name</label
-            >
+            <label class="label" for="company_name">Company name</label>
             <input
-              class="
-                block
-                text-sm
-                focus:font-semibold
-                border-b-2
-                py-1
-                w-full
-                outline-none
-                focus:text-black focus:border-black
-                lg:text-base
-              "
+              class="field"
               type="text"
               id="company_name"
               name="company_name"
@@ -201,28 +111,9 @@
           </div>
           <div class="mb-5 lg:flex">
             <div class="mb-3 mr-3 w-full">
-              <label
-                class="
-                  text-label text-gray-400
-                  uppercase
-                  tracking-widest
-                  lg:text-label-lg
-                "
-                for="password"
-                >Password*</label
-              >
+              <label class="label" for="password">Password*</label>
               <input
-                class="
-                  block
-                  text-sm
-                  focus:font-semibold
-                  border-b-2
-                  py-1
-                  w-full
-                  outline-none
-                  focus:text-black focus:border-black
-                  lg:text-base
-                "
+                class="field"
                 type="password"
                 id="password"
                 name="password"
@@ -230,28 +121,11 @@
               />
             </div>
             <div class="w-full">
-              <label
-                class="
-                  text-label text-gray-400
-                  uppercase
-                  tracking-widest
-                  lg:text-label-lg
-                "
-                for="confirm_password"
+              <label class="label" for="confirm_password"
                 >Confirm Password*</label
               >
               <input
-                class="
-                  block
-                  text-sm
-                  focus:font-semibold
-                  border-b-2
-                  py-1
-                  w-full
-                  outline-none
-                  focus:text-black focus:border-black
-                  lg:text-base
-                "
+                class="field"
                 type="password"
                 id="confirm_password"
                 name="confirm_password"
@@ -259,14 +133,12 @@
               />
             </div>
           </div>
-          <h4 class="text-sm font-semibold mb-3 lg:text-base">
-            * Required field
-          </h4>
-          <div class="text-sm mb-2 flex justify-items-start lg:text-base">
+          <h4 class="required">* Required field</h4>
+          <div class="checkbox-field">
             <input
               class="mr-2 mt-1"
               type="checkbox"
-              name="agreements"
+              name="terms_and_conditions"
               id="terms_and_conditions"
             />
             <label for="terms_and_conditions"
@@ -276,11 +148,11 @@
               ></label
             >
           </div>
-          <div class="text-sm flex justify-items-start lg:text-base">
+          <div class="checkbox-field">
             <input
               class="mr-2 mt-1"
               type="checkbox"
-              name="agreements"
+              name="terms_and_conditions"
               id="product_updates"
             />
             <label for="product_updates"
@@ -294,21 +166,7 @@
               ></label
             >
           </div>
-          <input
-            class="
-              mt-5
-              w-full
-              block
-              p-2
-              bg-button-100
-              text-white
-              hover:bg-button-200
-              cursor-pointer
-              lg:text-lg
-            "
-            type="submit"
-            value="Create account"
-          />
+          <input class="submit-btn" type="submit" value="Create account" />
         </form>
       </section>
     </main>

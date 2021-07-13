@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main {
+  @apply h-full
+  mx-auto
+  md:flex
+  bg-white
+  lg:h-screen lg:max-w-screen-xl
+  xl:h-full xl:rounded xl:overflow-hidden xl:shadow-xl xl:mt-12;
+}
+
+.prodigi-section {
+  @apply bg-prodigi-background bg-cover
+  py-10
+  px-8
+  h-auto
+  w-half-width
+  hidden
+  lg:block
+  xl:h-auto;
+}
+
+.form-container {
+  @apply py-10
+  mx-auto
+  px-5
+  h-auto
+  w-full
+  max-w-md
+  md:mt-10
+  lg:w-half-width lg:max-w-xl lg:mt-0;
+}
+
+/* Prodigi Section */
+
+.logo {
+  @apply w-44 mb-20 ml-8;
+}
+
+.prodigi-list {
+  @apply text-white text-lg;
+}
+
+.tick {
+  @apply w-5 h-5 mt-1 mr-3;
+}
+
+.li-title {
+  @apply font-semibold mb-1;
+}
+
+/* FORM CONTAINER */
+
+.form-header {
+  @apply font-semibold mb-6 lg:mb-12;
+}
+
+.form-header-title {
+  @apply text-xl mb-2 lg:text-3xl;
+}
+
+.form-header-text {
+  @apply text-sm lg:text-lg;
+}
+
+.label {
+  @apply text-label text-gray-400
+  uppercase
+  tracking-widest
+  lg:text-label-lg;
+}
+
+.field {
+  @apply block
+  text-sm
+  font-semibold
+  border-b-2
+  py-1
+  w-full
+  outline-none
+  focus:text-black focus:border-black
+  lg:text-base;
+}
+
+.required {
+  @apply text-sm font-semibold mb-3 lg:text-base;
+}
+
+.checkbox-field {
+  @apply text-sm mb-2 flex justify-items-start lg:text-base;
+}
+
+.submit-btn {
+  @apply mt-5
+  w-full
+  block
+  p-2
+  bg-button-100
+  text-white
+  hover:bg-button-200
+  cursor-pointer
+  lg:text-lg;
+}

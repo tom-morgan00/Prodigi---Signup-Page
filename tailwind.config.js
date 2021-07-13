@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         'prodigi-background': 'url("./assets/background.png")',
       },
+      width: {
+        'half-width': '50%',
+      },
     },
   },
   variants: {
