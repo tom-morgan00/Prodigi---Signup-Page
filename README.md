@@ -16,18 +16,12 @@ Thanks, Tom.
 
 ## PC
 
-### Landing Page
-
 ![](https://github.com/tom-morgan00/Prodigi---Signup-Page/blob/master/screenshots/pc.png?raw=true)
 
 ## Mobile
 
-### Search Results
-
 ![](https://github.com/tom-morgan00/Prodigi---Signup-Page/blob/master/screenshots/mobile.png?raw=true)
 
 ## Tablet
-
-### Search Results
 
 ![](https://github.com/tom-morgan00/Prodigi---Signup-Page/blob/master/screenshots/tablet.png?raw=true)
