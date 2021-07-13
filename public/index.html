@@ -11,21 +11,111 @@
     <title>Prodigi - Sign Up</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <main class="container py-8 mx-auto">
-      <section class="form-container px-5 max-w-sm mx-auto">
+  <body class="bg-gray-50">
+    <main
+      class="
+        h-full
+        mx-auto
+        md:flex
+        bg-white
+        lg:h-screen lg:max-w-screen-xl
+        xl:h-full xl:rounded xl:overflow-hidden xl:shadow-xl xl:mt-12
+      "
+    >
+      <section
+        class="
+          prodigi-section
+          bg-prodigi-background bg-cover
+          py-10
+          px-8
+          h-auto
+          w-1/2
+          hidden
+          lg:block
+          xl:h-auto
+        "
+      >
+        <div class="logo w-44 mb-20 ml-8">
+          <img
+            class="w-full"
+            src="./assets/Prodigi logo.svg"
+            alt="Prodigi logo"
+          />
+        </div>
+        <ul class="prodigi-list text-white text-lg">
+          <li class="flex mb-8">
+            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <div>
+              <h4 class="font-semibold mb-1">Easy-to-use interface</h4>
+              <p class="text-base">
+                Simple and intuitive; making it easy for customers to turn their
+                photos into beautiful books.
+              </p>
+            </div>
+          </li>
+          <li class="flex mb-8">
+            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <div>
+              <h4 class="font-semibold mb-1">Intuitive, quick and simple</h4>
+              <p class="text-base">
+                The simple user journey guides your customer through the entire
+                process.
+              </p>
+            </div>
+          </li>
+          <li class="flex mb-8">
+            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <div>
+              <h4 class="font-semibold mb-1">Premium quality</h4>
+              <p class="text-base">
+                High grade materials, sizes and finishing options; no matter
+                where in the world you order.
+              </p>
+            </div>
+          </li>
+          <li class="flex mb-8">
+            <img class="w-5 h-5 mt-1 mr-3" src="./assets/tick.svg" alt="Tick" />
+            <div>
+              <h4 class="font-semibold mb-1">Free to use</h4>
+              <p class="text-base">
+                Our photo book maker platform is 100% free. We only charge for
+                items ordered and there will never be any hidden fees or
+                surprises.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="
+          form-container
+          py-10
+          mx-auto
+          px-5
+          h-auto
+          w-full
+          max-w-md
+          md:mt-10
+          lg:w-1/2 lg:max-w-xl lg:mt-0
+        "
+      >
         <form action="#" method="POST">
-          <div class="form-header font-semibold mb-6">
-            <h3 class="text-xl mb-2">Photo book maker sign up</h3>
-            <h5 class="text-sm">
+          <div class="form-header font-semibold mb-6 lg:mb-16">
+            <h3 class="text-xl mb-2 lg:text-3xl">Photo book maker sign up</h3>
+            <h5 class="text-sm lg:text-lg">
               Already have an account?
               <a href="#" target="_blank" class="text-blue-500">Sign in</a>
             </h5>
           </div>
 
-          <div class="mb-3">
+          <div class="mb-3 lg:mb-5">
             <label
-              class="text-label text-gray-400 uppercase tracking-widest"
+              class="
+                text-label text-gray-400
+                uppercase
+                tracking-widest
+                lg:text-label-lg
+              "
               for="full_name"
               >Full name*</label
             >
@@ -33,12 +123,13 @@
               class="
                 block
                 text-sm
-                font-semibold
+                focus:font-semibold
                 border-b-2
                 py-1
                 w-full
                 outline-none
                 focus:text-black focus:border-black
+                lg:text-base
               "
               type="text"
               id="full_name"
@@ -46,9 +137,14 @@
               placeholder="Full name"
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 lg:mb-5">
             <label
-              class="text-label text-gray-400 uppercase tracking-widest"
+              class="
+                text-label text-gray-400
+                uppercase
+                tracking-widest
+                lg:text-label-lg
+              "
               for="email"
               >Email*</label
             >
@@ -56,12 +152,13 @@
               class="
                 block
                 text-sm
-                font-semibold
+                focus:font-semibold
                 border-b-2
                 py-1
                 w-full
                 outline-none
                 focus:text-black focus:border-black
+                lg:text-base
               "
               type="text"
               id="email"
@@ -69,9 +166,14 @@
               placeholder="Email"
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 lg:mb-5">
             <label
-              class="text-label text-gray-400 uppercase tracking-widest"
+              class="
+                text-label text-gray-400
+                uppercase
+                tracking-widest
+                lg:text-label-lg
+              "
               for="company_name"
               >Company name</label
             >
@@ -79,12 +181,13 @@
               class="
                 block
                 text-sm
-                font-semibold
+                focus:font-semibold
                 border-b-2
                 py-1
                 w-full
                 outline-none
                 focus:text-black focus:border-black
+                lg:text-base
               "
               type="text"
               id="company_name"
@@ -92,10 +195,15 @@
               placeholder="Company name"
             />
           </div>
-          <div class="mb-5">
-            <div class="mb-3">
+          <div class="mb-5 lg:flex">
+            <div class="mb-3 mr-3 w-full">
               <label
-                class="text-label text-gray-400 uppercase tracking-widest"
+                class="
+                  text-label text-gray-400
+                  uppercase
+                  tracking-widest
+                  lg:text-label-lg
+                "
                 for="password"
                 >Password*</label
               >
@@ -103,12 +211,13 @@
                 class="
                   block
                   text-sm
-                  font-semibold
+                  focus:font-semibold
                   border-b-2
                   py-1
                   w-full
                   outline-none
                   focus:text-black focus:border-black
+                  lg:text-base
                 "
                 type="password"
                 id="password"
@@ -116,9 +225,14 @@
                 placeholder="Create password"
               />
             </div>
-            <div>
+            <div class="w-full">
               <label
-                class="text-label text-gray-400 uppercase tracking-widest"
+                class="
+                  text-label text-gray-400
+                  uppercase
+                  tracking-widest
+                  lg:text-label-lg
+                "
                 for="confirm_password"
                 >Password*</label
               >
@@ -126,12 +240,13 @@
                 class="
                   block
                   text-sm
-                  font-semibold
+                  focus:font-semibold
                   border-b-2
                   py-1
                   w-full
                   outline-none
                   focus:text-black focus:border-black
+                  lg:text-base
                 "
                 type="password"
                 id="confirm_password"
@@ -140,8 +255,10 @@
               />
             </div>
           </div>
-          <h5 class="text-sm font-semibold mb-3">* Required field</h5>
-          <div class="text-sm mb-2 flex justify-items-start">
+          <h5 class="text-sm font-semibold mb-3 lg:text-base">
+            * Required field
+          </h5>
+          <div class="text-sm mb-2 flex justify-items-start lg:text-base">
             <input
               class="mr-2 mt-1"
               type="checkbox"
@@ -155,7 +272,7 @@
               ></label
             >
           </div>
-          <div class="text-sm flex justify-items-start">
+          <div class="text-sm flex justify-items-start lg:text-base">
             <input
               class="mr-2 mt-1"
               type="checkbox"
@@ -183,6 +300,7 @@
               text-white
               hover:bg-button-200
               cursor-pointer
+              lg:text-lg
             "
             type="submit"
             value="Create account"
