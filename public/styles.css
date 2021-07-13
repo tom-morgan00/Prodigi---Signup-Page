@@ -18029,6 +18029,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-prodigi-background {
+  background-image: url("./assets/background.png");
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -22882,6 +22886,11 @@ video {
 
 .text-label {
   font-size: 0.5rem;
+  line-height: 0.8rem;
+}
+
+.text-label-lg {
+  font-size: 0.66rem;
   line-height: 0.8rem;
 }
 
@@ -50484,6 +50493,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-prodigi-background {
+    background-image: url("./assets/background.png");
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -55337,6 +55350,11 @@ video {
 
   .sm\:text-label {
     font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .sm\:text-label-lg {
+    font-size: 0.66rem;
     line-height: 0.8rem;
   }
 
@@ -82507,6 +82525,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-prodigi-background {
+    background-image: url("./assets/background.png");
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -87360,6 +87382,11 @@ video {
 
   .md\:text-label {
     font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .md\:text-label-lg {
+    font-size: 0.66rem;
     line-height: 0.8rem;
   }
 
@@ -114530,6 +114557,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-prodigi-background {
+    background-image: url("./assets/background.png");
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -119383,6 +119414,11 @@ video {
 
   .lg\:text-label {
     font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .lg\:text-label-lg {
+    font-size: 0.66rem;
     line-height: 0.8rem;
   }
 
@@ -146553,6 +146589,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-prodigi-background {
+    background-image: url("./assets/background.png");
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -151406,6 +151446,11 @@ video {
 
   .xl\:text-label {
     font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .xl\:text-label-lg {
+    font-size: 0.66rem;
     line-height: 0.8rem;
   }
 
@@ -178576,6 +178621,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-prodigi-background {
+    background-image: url("./assets/background.png");
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -183429,6 +183478,11 @@ video {
 
   .\32xl\:text-label {
     font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .\32xl\:text-label-lg {
+    font-size: 0.66rem;
     line-height: 0.8rem;
   }
 
