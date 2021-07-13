@@ -12,39 +12,104 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="container">
-      <section class="form-container">
+    <main class="container py-8 mx-auto">
+      <section class="form-container px-5 max-w-sm mx-auto">
         <form action="#" method="POST">
-          <h3>Photo book maker sign up</h3>
-          <h5>
-            Already have an account? <a href="#" target="_blank">Sign in</a>
-          </h5>
-          <div>
-            <label for="full_name">Full name*</label>
+          <div class="form-header font-semibold mb-6">
+            <h3 class="text-xl mb-2">Photo book maker sign up</h3>
+            <h5 class="text-sm">
+              Already have an account?
+              <a href="#" target="_blank" class="text-blue-500">Sign in</a>
+            </h5>
+          </div>
+
+          <div class="mb-3">
+            <label
+              class="text-label text-gray-400 uppercase tracking-widest"
+              for="full_name"
+              >Full name*</label
+            >
             <input
+              class="
+                block
+                text-sm
+                font-semibold
+                border-b-2
+                py-1
+                w-full
+                outline-none
+                focus:text-black focus:border-black
+              "
               type="text"
               id="full_name"
               name="full_name"
               placeholder="Full name"
             />
           </div>
-          <div>
-            <label for="email">Email*</label>
-            <input type="text" id="email" name="email" placeholder="Email" />
-          </div>
-          <div>
-            <label for="company_name">Company name</label>
+          <div class="mb-3">
+            <label
+              class="text-label text-gray-400 uppercase tracking-widest"
+              for="email"
+              >Email*</label
+            >
             <input
+              class="
+                block
+                text-sm
+                font-semibold
+                border-b-2
+                py-1
+                w-full
+                outline-none
+                focus:text-black focus:border-black
+              "
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              class="text-label text-gray-400 uppercase tracking-widest"
+              for="company_name"
+              >Company name</label
+            >
+            <input
+              class="
+                block
+                text-sm
+                font-semibold
+                border-b-2
+                py-1
+                w-full
+                outline-none
+                focus:text-black focus:border-black
+              "
               type="text"
               id="company_name"
               name="company_name"
               placeholder="Company name"
             />
           </div>
-          <div>
-            <div>
-              <label for="password">Password*</label>
+          <div class="mb-5">
+            <div class="mb-3">
+              <label
+                class="text-label text-gray-400 uppercase tracking-widest"
+                for="password"
+                >Password*</label
+              >
               <input
+                class="
+                  block
+                  text-sm
+                  font-semibold
+                  border-b-2
+                  py-1
+                  w-full
+                  outline-none
+                  focus:text-black focus:border-black
+                "
                 type="password"
                 id="password"
                 name="password"
@@ -52,8 +117,22 @@
               />
             </div>
             <div>
-              <label for="confirm_password">Password*</label>
+              <label
+                class="text-label text-gray-400 uppercase tracking-widest"
+                for="confirm_password"
+                >Password*</label
+              >
               <input
+                class="
+                  block
+                  text-sm
+                  font-semibold
+                  border-b-2
+                  py-1
+                  w-full
+                  outline-none
+                  focus:text-black focus:border-black
+                "
                 type="password"
                 id="confirm_password"
                 name="confirm_password"
@@ -61,27 +140,53 @@
               />
             </div>
           </div>
-          <h5>* Required field</h5>
-          <div>
+          <h5 class="text-sm font-semibold mb-3">* Required field</h5>
+          <div class="text-sm mb-2 flex justify-items-start">
             <input
+              class="mr-2 mt-1"
               type="checkbox"
               name="agreements"
               id="terms_and_conditions"
             />
             <label for="terms_and_conditions"
               >I have read and agree to the
-              <a href="#" target="_blank">terms and conditions</a></label
+              <a href="#" target="_blank" class="text-blue-500 font-semibold"
+                >terms and conditions</a
+              ></label
             >
           </div>
-          <div>
-            <input type="checkbox" name="agreements" id="product_updates" />
+          <div class="text-sm flex justify-items-start">
+            <input
+              class="mr-2 mt-1"
+              type="checkbox"
+              name="agreements"
+              id="product_updates"
+            />
             <label for="product_updates"
-              ><span>Email me about product updates. </span> Prodigi
-              occasionally send helpful and useful emails. You can unsubscribe
-              at any time. <a href="#" target="_blank">Privacy policy</a></label
+              ><span class="font-semibold"
+                >Email me about product updates.
+              </span>
+              Prodigi occasionally send helpful and useful emails. You can
+              unsubscribe at any time.
+              <a href="#" target="_blank" class="text-blue-500 font-semibold"
+                >Privacy policy</a
+              ></label
             >
           </div>
-          <input type="submit" value="Create account" />
+          <input
+            class="
+              mt-5
+              w-full
+              block
+              p-2
+              bg-button-100
+              text-white
+              hover:bg-button-200
+              cursor-pointer
+            "
+            type="submit"
+            value="Create account"
+          />
         </form>
       </section>
     </main>
