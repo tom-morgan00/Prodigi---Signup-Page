@@ -2,24 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CONTAINERS */
+
 .main {
   @apply h-full
   mx-auto
   md:flex
   bg-white
-  lg:h-screen lg:max-w-screen-xl
-  xl:h-full xl:rounded xl:overflow-hidden xl:shadow-xl xl:mt-12;
+  lg:h-screen 
+  lg:max-w-screen-xl
+  xl:h-full 
+  xl:rounded 
+  xl:overflow-hidden 
+  xl:shadow-xl 
+  xl:mt-12;
 }
 
 .prodigi-section {
-  @apply bg-prodigi-background bg-cover
+  @apply bg-prodigi-background 
+  bg-cover
   py-10
   px-8
   h-auto
   w-half-width
   hidden
-  lg:block
-  xl:h-auto;
+  lg:block;
 }
 
 .form-container {
@@ -30,7 +37,10 @@
   w-full
   max-w-md
   md:mt-10
-  lg:w-half-width lg:max-w-xl lg:mt-0;
+  lg:w-half-width 
+  lg:max-w-xl 
+  lg:mt-0 
+  xl:pb-20;
 }
 
 /* Prodigi Section */
@@ -66,7 +76,8 @@
 }
 
 .label {
-  @apply text-label text-gray-400
+  @apply text-label 
+  text-pale-text
   uppercase
   tracking-widest
   lg:text-label-lg;
@@ -75,25 +86,35 @@
 .field {
   @apply block
   text-sm
+  text-pale-text
   font-semibold
   border-b-2
+  bg-transparent
   py-1
   w-full
   outline-none
-  focus:text-black focus:border-black
+  focus:text-black 
+  focus:border-black
   lg:text-base;
 }
 
 .required {
-  @apply text-sm font-semibold mb-3 lg:text-base;
+  @apply text-sm 
+  font-semibold 
+  mb-5
+  lg:text-base;
 }
 
 .checkbox-field {
-  @apply text-sm mb-2 flex justify-items-start lg:text-base;
+  @apply text-sm 
+  mb-2 
+  flex 
+  justify-items-start 
+  lg:text-base;
 }
 
 .submit-btn {
-  @apply mt-5
+  @apply mt-8
   w-full
   block
   p-2

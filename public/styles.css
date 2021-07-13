@@ -33113,6 +33113,8 @@ video {
   content: none;
 }
 
+/* CONTAINERS */
+
 .main {
   margin-left: auto;
   margin-right: auto;
@@ -33163,12 +33165,6 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
-  .prodigi-section {
-    height: auto;
-  }
-}
-
 .form-container {
   margin-left: auto;
   margin-right: auto;
@@ -33192,6 +33188,12 @@ video {
     margin-top: 0px;
     width: 50%;
     max-width: 36rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .form-container {
+    padding-bottom: 5rem;
   }
 }
 
@@ -33266,7 +33268,7 @@ video {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   --tw-text-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  color: rgba(164, 164, 164, var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -33288,11 +33290,14 @@ video {
 }
 
 .field {
+  background-color: transparent;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(164, 164, 164, var(--tw-text-opacity));
 }
 
 .field:focus {
@@ -33313,7 +33318,7 @@ video {
 }
 
 .required {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
@@ -33342,7 +33347,7 @@ video {
 }
 
 .submit-btn {
-  margin-top: 1.25rem;
+  margin-top: 2rem;
   display: block;
   width: 100%;
   cursor: pointer;
